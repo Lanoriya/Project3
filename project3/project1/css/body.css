@@ -1,0 +1,129 @@
+.container__partners {
+    width: 1175px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+}
+
+.container__body:nth-of-type(1) {
+    background-color: #fff;
+    margin-bottom: 73px;
+}
+
+.partners {
+    background-color: #fff;
+}
+
+.box:nth-child(1) {
+    text-transform: uppercase;
+    color: #74C69D;
+    font-family: "Work Sans Bold" ,sans-serif;
+    font-weight: 700;
+    letter-spacing: 5px;
+    margin-bottom: 16px;
+}
+
+.box:nth-child(2) {
+    font-family: "Crimson Text",sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+
+.box:nth-child(3) {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: black;
+    margin: auto;
+    max-width: 411px;
+    margin-bottom: 45px;
+    line-height: 2;
+}
+
+.logos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 55px;
+}
+
+.partners__button {
+    padding: 13px 30px 10px 30px;
+    background: #212529;
+    border-radius: 5px;
+    color: #fff;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+}
+
+.box__text.box__help {
+    margin-left: 0;
+    max-width: 470px;
+}
+
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.chel {
+    width: 252px;
+    height: 299px;
+    background: #FFFFFF;
+    box-shadow: 3px 4px 12px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    margin-bottom: 45px;
+}
+
+.chel__image {
+    padding: 20px 39px 19px 39px;
+}
+
+.chels__text__box {
+    display: flex;
+    text-align: left;
+    width: 202px;
+    height: 66px;
+    padding: 0 25px 19px 25px;
+}
+ 
+.chels__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.chel .span__text {
+    font-size: 24px;
+    line-height: 125%;
+    color: #212529;
+    font-family: "Crimson Text" ,sans-serif;
+    font-weight: 700;
+}
+
+.chel .span__text:nth-child(2) {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 125%;
+    color: rgba(33, 37, 41, 0.75);
+    text-transform: uppercase;
+}
+
+.partners2 .boxMobile {
+    display: none;
+}
+
+.container__partners > .partners__button{
+    padding: 13px 33px 10px 33px;
+    width: 170px;
+    margin-bottom: 54px;
+}
+
+.icons__container {
+    display: flex;
+    gap: 20px;
+}
