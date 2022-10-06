@@ -1,0 +1,22 @@
+.footer {
+    background: #74C69D;
+}
+
+.footer__container {
+    width: 1175px;
+    margin-left: auto;
+	margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #74C69D;
+    height: 125px;
+}
+
+.footer__copy {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 125%;
+}

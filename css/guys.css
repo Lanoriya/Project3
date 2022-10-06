@@ -1,0 +1,36 @@
+.box__guys {
+    display: flex;
+    width: 1175px;
+    margin: auto;
+    align-items: center;
+    gap: 110px;
+}
+
+.container__guys {
+    background: #fff;
+    margin-bottom: 73px;
+}
+
+.box__text {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.midtext:nth-child(1) {
+    font-family: "Crimson Text", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.midtext:nth-child(2) {
+    font-family: "Work Sans",sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19px;
+    margin-bottom: 16px;
+}
+
+.container__guys.guys__help {
+    margin-bottom: 102px;
+}
